@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Oscar\'s Notes',
+  tagline: 'I love fried chicken',
   url: 'https://ocpineda.github.io',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -8,14 +8,14 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'My Notes',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       links: [
         {
-          to: 'docs/',
+          to: 'docs/udemy-comptia',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
