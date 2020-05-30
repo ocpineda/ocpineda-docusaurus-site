@@ -12,11 +12,14 @@ These are notes from Mike Meyer's [Udemy course](https://www.udemy.com/course/co
 ## TODO
 
 - [ ] Review examples in BIA example "Identify Resource Requirements" in Myers' CompTIA cert book
+- [ ] Review PKI
+- [ ] Check out wrong answers in Linux Academy
 
 ## Resources
 
 - Source for original [MD notes](https://gitlab.com/oscarneedscoffee/notes/-/tree/master/software/security)
 - [Study guide](secplus-study-guide.md)
+- [CompTIA Sec+ Objectives](https://gitlab.com/oscarneedscoffee/notes/-/blob/master/software/security/security-plus/udemy-course/CompTIA-Security-SY0-501.pdf)
 
 
 ## Section 1: Risk Management
@@ -75,12 +78,20 @@ If you don't have threats and vulnerabilities, you have no risk. [NIST](../sec-d
 
 Check out the [Common Vulnerabilities and Exposures database](https://cve.mitre.org)
 
+### 7. Using Guides for Risk Assessment
+
+- benchmark 
+
 
 ---
 
 ### 7. Security Controls
 
 A mechanism to protect our IT infrastructue, or to remediate problems we have. What separates security engineer from IT is a security engineer understands, applies, and implements security controls.
+
+Security controls don’t say how to perform the steps needed to mitigate a threat, only that they must be performed
+
+There are thousands of controls you have to implement. You do it with a RMF (Risk Management Framework).
 
 #### Types of Security Controls
 
@@ -98,14 +109,46 @@ A mechanism to protect our IT infrastructue, or to remediate problems we have. W
 
 *For the exam, be comfortable applying type and function of a control*
 
+### Best practice
+
+A standard is a ruleset voluntarily adopted by an industry to provide more uniform products and services
+
+A **security policy** is a document that organizations generate to declare what actions and attitudes they will take for certain critical aspects of their infrastructure. 
+
+- Acceptable use
+
+enterprise information security architecture (EISA)
+- The EISA analyzes security systems in place. 
+- It encompasses industry-standard frameworks, such as the NIST RMF discussed previously. 
+- The EISA accounts for regulatory and non-regulatory influences—laws and standard operating procedures—and how compliance manifests. That includes national and international laws and practices.
+
+Activity Phase Controls
+The phases are before, during, and after an attack. 
+
+Deterrent controls
+> You need to know five phase control types for both essential skills and the CompTIA Security+ exam: deterrent, preventative, detective, corrective, and compensating
+
+Defective applied during an attack. IDS is an example. 
+
+Corrective is applied after an attack. 
+
+Compensating You use compensating controls to keep going until a better control is available or possible
+
+#### Standards
+A standard is a ruleset voluntarily adopted by an industry to provide more uniform products and services  
+
+PCI-DSS
+
 ---
 
 
 ### 12. Frameworks
 
+A framework is a description of a complex process, concentrating on major steps and the flows between the stops. In security, the framework used is a *risk management framework (RMF)*  NIST is a popular RMF
+
 A framework is a project idea and come from various sources:
 
-- Regulartory
+- Regulatory
 - Non-regulatory: ISACA IT infrastructure
 - National Standards
 - International Standards: ISO 2700
@@ -114,7 +157,14 @@ A framework is a project idea and come from various sources:
 NIST SP800-37: Risk Management Framework
 <img src={useBaseUrl('img/NIST-SP800-37.png')} />  
 
-Auth is an important process when defining
+
+#### Laws
+
+- HIPAA *Health Insurance Portability and Accountability Act* privacy and security for medical information. Who has access to records, and how to store it.
+- SOX Sarbanes-Oxley of 2002. Requires businesses to retain records for specific time periods.
+
+
+---
 
 ### 13. Quantitative Risk Calculations
 
@@ -195,3 +245,5 @@ Types of Data:
 
 
 ## Section 2: Cryptography
+
+## Digital Signatures
