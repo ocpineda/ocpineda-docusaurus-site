@@ -71,7 +71,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/udemy-comptia')}>
+              to={useBaseUrl('docs/study-guide')}>
               Get Started
             </Link>
           </div>

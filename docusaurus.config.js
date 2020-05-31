@@ -15,7 +15,7 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/udemy-comptia',
+          to: 'docs/study-guide',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',

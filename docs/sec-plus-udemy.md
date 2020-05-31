@@ -1,11 +1,11 @@
 ---
 id: udemy-comptia
-title: CompTia Security+ Exam
+title: Udemy Notes
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-CompTIA Security+ SY0-501 from Udemy
+CompTIA Security+ SY0-501 lecture notes from Udemy
 
 These are notes from Mike Meyer's [Udemy course](https://www.udemy.com/course/comptia-security-certification-sy0-501-the-total-course/)
 
@@ -239,6 +239,7 @@ Types of Data:
 - SLA: Legal document to specify what a third party will guarantee to the organization
 - BPA: When two businesses get together
 - ISA: Interconnection Security Agreement. Not a legal document, but technical. Usually used in telecom and between government agencies.
+- MOA (Memorandum of Agreement): Legal document with terms and details of agreement
 
 
 
@@ -246,4 +247,19 @@ Types of Data:
 
 ## Section 2: Cryptography
 
-## Digital Signatures
+[See study guide](secplus-study-guide.md#cryptography)
+- Module 6 in CompTIA objectives
+
+### 29. PKI
+
+[More in study guide](secplus-study-guide.md#pki)
+
+- PKI uses symmetric and asymmetric algorithms, and hashing.
+- Symmetric algorithms are fast, but don't scale well. Asymmetric isn't fast, and doesn't encrypt large amounts of data as well.
+- Asymmetric systems use private and public key pairs. You don't send your private key.
+
+
+To exchange messages between two parties, each party must have each other's public keys.
+
+<img src={useBaseUrl('img/asymm-keys.jpg')} />  
+
