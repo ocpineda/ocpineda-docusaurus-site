@@ -14,6 +14,7 @@ These are notes from Mike Meyer's [Udemy course](https://www.udemy.com/course/co
 - [ ] Review examples in BIA example "Identify Resource Requirements" in Myers' CompTIA cert book
 - [ ] Review PKI
 - [ ] Check out wrong answers in Linux Academy
+- [ ] CIS config guides
 
 ## Resources
 
